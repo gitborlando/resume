@@ -1,0 +1,20 @@
+.basicInfo-container {
+    width: 100%;
+    height: fit-content;
+}
+
+.basicInfo-container-one {
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.basicInfo-container-item {
+    margin: 5px 0;
+}
+
+.basicInfo-container-item-name {
+    width: fit-content;
+    min-width: 4.55rem;
+    margin-right: 10px;
+    color: rgb(95, 95, 95);
+}
