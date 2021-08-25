@@ -6,3 +6,18 @@
 .grow {
     flex-grow: 1;
 }
+
+.columnByColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.marginBotton5 {
+    margin: 0 0 5px 0;
+}
+
+.marginBotton10 {
+    margin: 0 0 10px 0;
+}

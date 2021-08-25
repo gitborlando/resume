@@ -1,0 +1,19 @@
+.internShip-container {
+  width: 100%;
+  height: fit-content;
+}
+
+.internShip-container-item {
+  margin: 5px 0;
+}
+
+.internShip-container-item-name {
+  width: fit-content;
+  min-width: 4.55rem;
+  margin-right: 10px;
+  color: rgb(95, 95, 95);
+}
+
+.internShip-container-one {
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.selfProject-container {
+  width: 100%;
+  height: fit-content;
+}
+
+.selfProject-container-item {
+  margin: 5px 0;
+}
+
+.selfProject-container-item-name {
+  width: fit-content;
+  min-width: 4.55rem;
+  margin-right: 10px;
+  color: rgb(95, 95, 95);
+}

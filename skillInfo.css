@@ -1,0 +1,12 @@
+.solidPoint {
+  width: 5px;
+  height: 5px;
+  position: relative;
+  border-radius: 50%;
+  margin: auto 10px;
+  background-color: rgb(75, 75, 75);
+}
+
+.skillInfo-container-item {
+  margin: 5px 0;
+}

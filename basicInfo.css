@@ -5,7 +5,11 @@
 
 .basicInfo-container-one {
     width: 50%;
-    /* background-color: aquamarine; */
+    height: fit-content;
+}
+
+.basicInfo-container-two {
+    height: fit-content;
 }
 
 .basicInfo-container-item {
