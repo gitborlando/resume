@@ -50,10 +50,10 @@ var f
     skillInfo: {
         container: [
             'item',
-            { value: '熟悉 React, TypeScript' },
-            { value: '熟悉 Html, JavaScript, CSS' },
-            { value: '熟悉 计算机网络等知识' },
-            { value: '熟悉 XXXX' },
+            { value: '熟悉 Html, JavaScript, CSS 基础' },
+            { value: '熟悉 React, TypeScript, Mobx' },  
+            { value: '掌握计算机网络等基础, 及几种常见设计模式' },
+            { value: '了解 git XXX' },
         ]
     },
     internShip: {
@@ -61,22 +61,25 @@ var f
             'item',
             {
                 name: '实习公司 :',
-                value: '腾讯科技'
+                value: '腾讯科技(深圳)有限公司'
             }, {
-                name: '实习岗位 :',
-                value: '前端工程师'
+                name: '实习类型 :',
+                value: '校招实习生'
             }, {
                 name: '实习时长 :',
-                value: '2021.7.18 ~ 至今'
+                value: '2021.7.8 ~ 至今'
+            }, {
+                name: '实习证明 :',
+                value: 'http://XXXX'
             }, {
                 name: '项目介绍 :',
-                value: '可视化搭建引擎'
+                value: '可视化搭建引擎, 通过拖拽操作可生成 h5 活动页'
             }, {
                 name: '项目技术栈 :',
                 value: 'React hooks + TypeScript + Mobx + InversifyJs'
             }, {
                 name: '个人工作 :',
-                value: '画布渲染与操作, 主要是组件的渲染以及标尺,参考线等附加功能'
+                value: '画布渲染与操作, 主要是: 点击页面后生成组件的选区, 以及标尺、参考线等附加功能'
             }, {
                 name: '难点1 :',
                 value: 'XXXXXXX'
@@ -88,17 +91,29 @@ var f
             'item',
             {
                 name: '项目介绍 :',
-                value: '一个微型前端框架'
+                value: '个人学习前端过程中出于兴趣自制的一个微型前端框架'
             }, {
                 name: '项目技术栈 :',
                 value: 'TypeScript + InversifyJs'
             }, {
-                name: '优点 :',
+                name: '项目地址 :',
+                value: '<a href="https://github.com/gitborlando">github.com/gitborlando</a>'
+            }, {
+                name: '具体特性如下 :',
                 value: ''
             }, {
-                name: '项目介绍 :',
-                value: '可视化搭建引擎'
-            }
+                name: '响应式UI :',
+                value: '基于 Proxy 劫持数据源的 getter 和 setter 实现响应式更新视图'
+            }, {
+                name: '模板引擎 :',
+                value: '基于正则匹配的一个简化 Html 书写的模板解析模块'
+            },{
+                name: '命令行工具 frame-cli :',
+                value: '可通过 npm i frame-cli && frame <项目名> 迅速构建该框架的应用'
+            }, {
+                name: '依赖注入 :',
+                value: '使用 Ioc 依赖注入的设计模式实现各模块的解耦, 提高项目可维护性'
+            }, 
         ]
     },
 

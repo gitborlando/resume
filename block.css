@@ -3,13 +3,13 @@
 }
 
 html, body {
-    width: 880px;
+    width: 860px;
     margin: 0;
 }
 
 .root {
-    width: calc(880px - 100px);
-    padding: 50px;
+    width: calc(860px - 100px);
+    padding: 30px 40px;
 }
 
 .block {
