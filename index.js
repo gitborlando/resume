@@ -51,7 +51,7 @@ var f
         container: [
             'item',
             { value: '熟悉 Html, JavaScript, CSS 基础' },
-            { value: '熟悉 React, TypeScript, Mobx' },  
+            { value: '熟悉 React, TypeScript, Mobx' },
             { value: '掌握计算机网络等基础, 及几种常见设计模式' },
             { value: '了解 git XXX' },
         ]
@@ -82,7 +82,7 @@ var f
                 value: '画布渲染与操作, 主要是: 点击页面后生成组件的选区, 以及标尺、参考线等附加功能'
             }, {
                 name: '难点1 :',
-                value: 'XXXXXXX'
+                value: '点击生成选区时如何屏蔽组件的默认行为'
             },
         ]
     },
@@ -97,7 +97,7 @@ var f
                 value: 'TypeScript + InversifyJs'
             }, {
                 name: '项目地址 :',
-                value: '<a href="https://github.com/gitborlando">github.com/gitborlando</a>'
+                value: '<a href="https://github.com/gitborlando/frame-advance">gitborlando/frame-advance</a>'
             }, {
                 name: '具体特性如下 :',
                 value: ''
@@ -107,13 +107,13 @@ var f
             }, {
                 name: '模板引擎 :',
                 value: '基于正则匹配的一个简化 Html 书写的模板解析模块'
-            },{
-                name: '命令行工具 frame-cli :',
-                value: '可通过 npm i frame-cli && frame <项目名> 迅速构建该框架的应用'
             }, {
                 name: '依赖注入 :',
                 value: '使用 Ioc 依赖注入的设计模式实现各模块的解耦, 提高项目可维护性'
-            }, 
+            }, {
+                name: '命令行工具 frame-cli :',
+                value: '可通过 npm i frame-cli && frame <项目名> 迅速构建该框架的应用'
+            },
         ]
     },
 
