@@ -8,7 +8,7 @@ html, body {
 }
 
 .root {
-    width: calc(860px - 100px);
+    width: calc(860px - 80px);
     padding: 30px 40px;
 }
 
@@ -37,4 +37,23 @@ html, body {
 
 a {
     color: rgba(22, 119, 63, 0.829);
+}
+
+.highLight {
+    width: fit-content;
+    background-color: rgba(25, 163, 82, 0.192);
+    padding: 0 3px;
+    border-radius: 5px;
+}
+
+.noMargin {
+    margin: 0!important;
+}
+
+.minWidth {
+    min-width: 4.55rem;
+}
+
+.gray {
+    color: rgba(95, 95, 95, 1);
 }

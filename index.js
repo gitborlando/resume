@@ -28,7 +28,7 @@ var f
                 value: 'Web前端开发'
             }, {
                 name: 'Github :',
-                value: '<a href="https://github.com/gitborlando">github.com/gitborlando</a>'
+                value: '<a href="https://github.com/gitborlando/frame-advance">gitborlando/frame-advance</a>'
             }, {
                 name: '个人网站 :',
                 value: '<a href="https://gitborlando.cn">gitborlando.cn</a>'
@@ -38,12 +38,12 @@ var f
             }, {
                 name: '专业 :',
                 value: '金融学'
+            },{
+                name: '毕业时间 :',
+                value: '2022 年 6 月 30 号'
             }, {
                 name: '联系方式 :',
-                value: `<div class="columnByColumn">
-                            <div class="marginBotton10">15770549945</div>
-                            <div>2629888564@qq.com</div>
-                        </div>`
+                value: `15770549945 <span style="margin: 0 6px"><span/> 2629888564@qq.com`
             }
         ]
     },
@@ -51,9 +51,9 @@ var f
         container: [
             'item',
             { value: '熟悉 Html, JavaScript, CSS 基础' },
-            { value: '熟悉 React, TypeScript, Mobx' },
-            { value: '掌握计算机网络等基础, 及几种常见设计模式' },
-            { value: '了解 git XXX' },
+            { value: '熟悉 React hooks, TypeScript, 及一些常见设计模式' },
+            { value: '掌握计算机网络基础, 网络安全等' },
+            { value: '了解 git 相关操作' },
         ]
     },
     internShip: {
@@ -69,9 +69,6 @@ var f
                 name: '实习时长 :',
                 value: '2021.7.8 ~ 至今'
             }, {
-                name: '实习证明 :',
-                value: 'http://XXXX'
-            }, {
                 name: '项目介绍 :',
                 value: '可视化搭建引擎, 通过拖拽操作可生成 h5 活动页'
             }, {
@@ -79,11 +76,22 @@ var f
                 value: 'React hooks + TypeScript + Mobx + InversifyJs'
             }, {
                 name: '个人工作 :',
-                value: '画布渲染与操作, 主要是: 点击页面后生成组件的选区, 以及标尺、参考线等附加功能'
+                value: '画布操作相关, 主要是: 点击组件后生成选区, 以及标尺、参考线和吸附等功能'
             }, {
                 name: '难点1 :',
-                value: '点击生成选区时如何屏蔽组件的默认行为'
-            },
+                value: '点击生成选区时, 如何屏蔽组件自身行为, 又能精确地选中组件'
+            }, {
+                name: '',
+                value: `业界常用 dragresize 组件方案, 但在多层嵌套情况下只能选中最外层容器, 而不能选中内层组件, 遂采取 mask 区域劫持用户点击, 
+                拿到点击坐标再通过 elementsFromPoint 查找到组件`
+            }, {
+                name: '难点2 :',
+                value: '可视区域宽高变化时, 如何同步更新标尺的宽高和刻度'
+            },{
+                name: '',
+                value: `可视区域宽高变化时, 需调用标尺自身方法更新刻度和长宽等, 但可视区域组件并不能监听其自身变化, 遂在该组件内部添加一宽高均
+                为 100% 的 iframe, 并通过 iframe.contentWindow 的 onresize 事件监听可视区域的变化, 从而通知标尺组件进行更新 `
+            }, 
         ]
     },
     selfProject: {
@@ -116,5 +124,13 @@ var f
             },
         ]
     },
-
+    additionalItem: {
+        container: [
+            'item',
+            {
+                name: '实习证明 :',
+                value: 'https://XXX'
+            }
+        ]
+    }
 })
