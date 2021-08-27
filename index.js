@@ -27,11 +27,11 @@ var f
                 name: '求职意向 :',
                 value: 'Web前端开发'
             }, {
+                name: '毕业时间 :',
+                value: '2022 年 6 月 30 号'
+            }, {
                 name: 'Github :',
                 value: '<a href="https://github.com/gitborlando/frame-advance">gitborlando/frame-advance</a>'
-            }, {
-                name: '个人网站 :',
-                value: '<a href="https://gitborlando.cn">gitborlando.cn</a>'
             }, {
                 name: '院校 :',
                 value: '江西财经大学'
@@ -39,11 +39,11 @@ var f
                 name: '专业 :',
                 value: '金融学'
             },{
-                name: '毕业时间 :',
-                value: '2022 年 6 月 30 号'
+                name: '电话 :',
+                value: '15770549945'
             }, {
-                name: '联系方式 :',
-                value: `15770549945 <span style="margin: 0 6px"><span/> 2629888564@qq.com`
+                name: '邮箱 :',
+                value: `2629888564@qq.com`
             }
         ]
     },
