@@ -31,7 +31,7 @@ var f
                 value: '2022 年 6 月 30 号'
             }, {
                 name: 'Github :',
-                value: '<a href="https://github.com/gitborlando/frame-advance">gitborlando/frame-advance</a>'
+                value: '<a href="https://github.com/gitborlando">github.com/gitborlando</a>'
             }, {
                 name: '院校 :',
                 value: '江西财经大学'
@@ -53,7 +53,7 @@ var f
             { value: '熟悉 Html, JavaScript, CSS 基础' },
             { value: '熟悉 React hooks, TypeScript, 及一些常见设计模式' },
             { value: '掌握计算机网络基础, 网络安全等' },
-            { value: '了解 git 相关操作' },
+            // { value: '了解 git 相关操作' },
         ]
     },
     internShip: {
@@ -110,7 +110,7 @@ var f
                 name: '具体特性如下 :',
                 value: ''
             }, {
-                name: '响应式UI :',
+                name: '数据劫持 :',
                 value: '基于 Proxy 劫持数据源的 getter 和 setter 实现响应式更新视图'
             }, {
                 name: '模板引擎 :',
